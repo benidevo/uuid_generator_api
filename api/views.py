@@ -24,4 +24,4 @@ class GenerateUUIDView(APIView):
 
             return Response(data=uuids, status=status.HTTP_200_OK)
         except Exception as e:
-            return Response(errors={'msg': str(e)}, status=status.HTTP_400_BAD_REQUEST)
+            return Response(errors={'msg': 'Internal Server Error'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
