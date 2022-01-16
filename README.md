@@ -3,7 +3,7 @@
 ## Description
 This is a simple API that returns a key-value pair of randomly generated UUID. The key will be a timestamp and value will be a UUID. While the server is running, whenever the API is called, it returns all the previously generated UUIDs alongside a new UUID, with the newly generated UUID at the top.
 
-- [Live Preview](https://documenter.getpostman.com/view/15138887/UVXjKw9W)
+- [Live Preview](https://documenter.getpostman.com/view/15138887/UVXkmZuX)
 
 ![Screenshot](uuidgen.png?raw=true "screenshot")
 ## Technologies 
