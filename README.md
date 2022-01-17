@@ -49,3 +49,7 @@ Kindly ensure that you are in the root directory before running the following co
 ## Start server
 
     python manage.py runserver
+
+## Generate UUID Endpoint
+
+    http://localhost:8000/api/v1/uuids
